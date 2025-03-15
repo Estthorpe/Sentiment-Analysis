@@ -2,6 +2,29 @@
 __pycache__/
 *.py[cod]
 *$py.class
+# Ignore environment variables & passwords
+.env
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore datasets
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Ignore log files & temp files
+*.log
+*.tmp
 
 # C extensions
 *.so
